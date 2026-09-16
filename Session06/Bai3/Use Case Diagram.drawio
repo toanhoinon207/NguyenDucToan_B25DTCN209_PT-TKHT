@@ -1,0 +1,66 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="NeBOAIwja7NeDo_6hzRu">
+    <mxGraphModel dx="1016" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Bệnh nhân" vertex="1">
+          <mxGeometry height="60" width="30" x="100" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-7" parent="1" style="shape=rect;html=1;verticalAlign=top;fontStyle=1;whiteSpace=wrap;align=center;" value="&lt;span style=&quot;font-family: &amp;quot;Noto Sans Symbols&amp;quot;, sans-serif; font-size: 14px; text-align: start; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;Hệ thống RikkeiCare&lt;/span&gt;" vertex="1">
+          <mxGeometry height="410" width="410" x="200" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Đặt lịch khám" vertex="1">
+          <mxGeometry height="70" width="140" x="260" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Đặt lịch khám thường" vertex="1">
+          <mxGeometry height="60" width="116.5" x="250" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Chọn bác sĩ chỉ định" vertex="1">
+          <mxGeometry height="70" width="130" x="470" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-14" edge="1" parent="1" source="XJGNp76QmDC5m1FMyjj1-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="XJGNp76QmDC5m1FMyjj1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-20" edge="1" parent="1" source="XJGNp76QmDC5m1FMyjj1-12" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="XJGNp76QmDC5m1FMyjj1-9" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.1405" y="-7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="350" y="340" as="sourcePoint" />
+            <mxPoint x="349.5" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-34" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Đăng nhập" vertex="1">
+          <mxGeometry height="60" width="116.5" x="271.75" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-36" edge="1" parent="1" source="XJGNp76QmDC5m1FMyjj1-9" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="XJGNp76QmDC5m1FMyjj1-34" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.0457" y="-33" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="291" y="175" as="sourcePoint" />
+            <mxPoint x="391" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-40" edge="1" parent="1" source="XJGNp76QmDC5m1FMyjj1-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XJGNp76QmDC5m1FMyjj1-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="245" as="sourcePoint" />
+            <mxPoint x="280" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Đặt lịch khám ưu tiên" vertex="1">
+          <mxGeometry height="70" width="130" x="400" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-42" edge="1" parent="1" source="XJGNp76QmDC5m1FMyjj1-11" style="edgeStyle=none;html=1;endSize=12;endArrow=block;endFill=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="XJGNp76QmDC5m1FMyjj1-9" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="350" y="390" as="sourcePoint" />
+            <mxPoint x="510" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJGNp76QmDC5m1FMyjj1-43" edge="1" parent="1" source="XJGNp76QmDC5m1FMyjj1-41" style="edgeStyle=none;html=1;endSize=12;endArrow=block;endFill=0;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="XJGNp76QmDC5m1FMyjj1-9" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="288" y="420" as="sourcePoint" />
+            <mxPoint x="340" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
