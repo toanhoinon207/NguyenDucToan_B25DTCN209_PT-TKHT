@@ -1,0 +1,64 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="3R2ePPzvmUsnjgc_dJk6">
+    <mxGraphModel dx="845" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hinD-lY3f7VIxLJga26G-210" edge="1" parent="1" source="hinD-lY3f7VIxLJga26G-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="hinD-lY3f7VIxLJga26G-202">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-198" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="KhachHang" vertex="1">
+          <mxGeometry height="118" width="160" x="140" y="558.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-199" parent="hinD-lY3f7VIxLJga26G-198" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- maKhachHang: String&lt;div&gt;- tenKhachHang: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-200" parent="hinD-lY3f7VIxLJga26G-198" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-201" parent="hinD-lY3f7VIxLJga26G-198" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ datLichHen(): LichHen&lt;div&gt;+ xemLichHen(): List&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="160" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-213" edge="1" parent="1" source="hinD-lY3f7VIxLJga26G-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="hinD-lY3f7VIxLJga26G-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-202" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="LichHen" vertex="1">
+          <mxGeometry height="130.5" width="170" x="421" y="552.25" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-203" parent="hinD-lY3f7VIxLJga26G-202" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- maLichHen: String&lt;div&gt;- khungGio: String&lt;/div&gt;&lt;div&gt;- ngayHen: Date&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54.5" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-204" parent="hinD-lY3f7VIxLJga26G-202" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="170" y="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-205" parent="hinD-lY3f7VIxLJga26G-202" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ taoLichHen(): void&lt;div&gt;+ huyLichHen(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="170" y="88.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-206" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="KyThuatVien" vertex="1">
+          <mxGeometry height="110" width="160" x="710" y="562.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-207" parent="hinD-lY3f7VIxLJga26G-206" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- maKTV: String&lt;div&gt;- tenKTV: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-208" parent="hinD-lY3f7VIxLJga26G-206" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-209" parent="hinD-lY3f7VIxLJga26G-206" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ xemLichHen(): List" vertex="1">
+          <mxGeometry height="34" width="160" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-214" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-215" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="378" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-216" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="574" y="594" as="geometry" />
+        </mxCell>
+        <mxCell id="hinD-lY3f7VIxLJga26G-217" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="672" y="594" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
