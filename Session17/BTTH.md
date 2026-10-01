@@ -4,8 +4,8 @@
 |---|---|---|
 | Mục A (định nghĩa SKU) | 2.4 Constraints | Sai — đúng là 1.2 Definitions, Acronyms and Abbreviations |
 | Mục B (3 yêu cầu chức năng) | 3.2 Functional Requirements | Đúng |
-| Danh sách Actor/Use Case tổng thể | 3.1 External Interfaces | Sai — đúng là 3.2 Functional Requirements |
-| Sơ đồ Sequence quét mã vạch (minh họa REQ-02) | 3.2 Functional Requirements | Sai — đúng là 3.2 Functional Requirements |
+| Danh sách Actor/Use Case tổng thể | 3.2 Functional Requirements |  —  |
+| Sơ đồ Sequence quét mã vạch (minh họa REQ-02) | 3.2 Functional Requirements |  —  |
 
 # Bước 2 — Viết lại REQ-02 và REQ-03 đạt chuẩn Verifiable
 
